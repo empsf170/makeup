@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Mael Beauty</title>
+    <meta name="description" content="View our extensive portfolio of bridal, editorial, and event makeup.">
+    <link rel="icon" type="image/jpeg" href="images/favicon.jpg">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">MAEL BEAUTY</div>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section 1: Hero -->
+    <section class="page-hero hero-portfolio">
+        <div class="hero-content">
+            <h1>Our Portfolio</h1>
+            <p>A showcase of our finest artistry.</p>
+        </div>
+    </section>
+
+    <!-- Section 2: Bridal Gallery -->
+    <section>
+        <h2 class="section-title">Bridal Collection</h2>
+        <div class="grid-3">
+            <div class="image-block" style="height: 350px; background-image: url('images/bride1.jpg');"></div>
+            <div class="image-block" style="height: 350px; background-image: url('images/bride2.jpg');"></div>
+            <div class="image-block" style="height: 350px; background-image: url('images/bride3.jpg');"></div>
+        </div>
+    </section>
+
+    <!-- Section 3: Editorial Gallery -->
+    <section class="bg-darker">
+        <h2 class="section-title">Editorial & Fashion</h2>
+        <div class="grid-3">
+            <div class="image-block" style="height: 350px; background-image: url('images/fashion1.jpg');">
+            </div>
+            <div class="image-block" style="height: 350px; background-image: url('images/fashion2.jpg');">
+            </div>
+            <div class="image-block" style="height: 350px; background-image: url('images/fashion3.jpg');">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Video / Behind the Scenes -->
+    <section>
+        <h2 class="section-title">Behind The Scenes</h2>
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <div class="image-block"
+                style="height: 450px; display: flex; align-items: center; justify-content: center; cursor: pointer; background-image: url('images/bts.jpg');">
+                <i class="fas fa-play-circle"
+                    style="font-size: 5rem; color: var(--primary-color); opacity: 0.8; filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));"></i>
+            </div>
+            <p style="margin-top: 20px; color: var(--text-muted);">Watch our artists at work during the latest fashion
+                week.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo" style="font-size: 1.5rem; margin-bottom: 15px;">MAEL BEAUTY</div>
+                <p>Elevating personal beauty through luxury artistry and tailored care routines.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html">Bridal Makeup</a></li>
+                    <li><a href="services.html">Editorial & Fashion</a></li>
+                    <li><a href="services.html">Event Glamour</a></li>
+                    <li><a href="services.html">Personal Care</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Luxury Ave, NY 10001</p>
+                <p><i class="fas fa-phone"></i> +1 (234) 567-8900</p>
+                <p><i class="fas fa-envelope"></i> hello@maelbeauty.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mael Beauty. All Rights Reserved. Designed for Elegance.</p>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+
+</html>
